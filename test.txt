@@ -1,1 +1,3 @@
-This works!!
+def main():
+    This works!!
+    print('name')
