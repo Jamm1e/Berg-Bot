@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+=======
+def main():
+    This works!!
+    print('name')
+>>>>>>> 26386c9317cc554c06328c918b922bd5c5c23f01
