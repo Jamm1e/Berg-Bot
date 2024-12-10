@@ -1,3 +1,0 @@
-def main():
-    This works!!
-    print('name')
