@@ -14,6 +14,7 @@ while True:
         print(question.split())
         print([x for x in question.split() if x in lst])
         print(lstresp[lst.index(''.join([x for x in question.split() if x in lst]))])
+        break
         
         #if question.split() in lst:
 
