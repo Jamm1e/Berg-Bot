@@ -58,7 +58,6 @@ def validate_input(info, user_input):
     
     if info == "birth_date":
         try:
-            if user_input == 8:
                 datetime.strptime(user_input, "%m%d%Y")
         except ValueError:
             return False, "Invalid date format. Please use MMDDYYYY (e.g., 12252000 for Dec 25, 2000)."
